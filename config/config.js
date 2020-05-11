@@ -1,0 +1,1 @@
+module.exports.seed = 'ENQp5bMjgXdjrFwDAZcxgWbhAeebAzZRdF58uu3AgRJhn5LMFAUM8VFkZKmcVcEYukHMDAcwgyDed2CK';
