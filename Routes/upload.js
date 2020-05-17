@@ -1,11 +1,11 @@
-const express = require('express');
-const fileUpload = require('express-fileupload');
-const fs = require('fs-extra');
-const app = express();
-const HospitalModels = require('../Models/hospital');
-const MedicosModels = require('../Models/medicos');
-const UsuarioModels = require('../Models/usuario');
-const mdAutenticacion = require('../middlewares/autenticacion');
+var express = require('express');
+var fileUpload = require('express-fileupload');
+var fs = require('fs-extra');
+var app = express();
+var HospitalModels = require('../Models/hospital');
+var MedicosModels = require('../Models/medicos');
+var UsuarioModels = require('../Models/usuario');
+var mdAutenticacion = require('../middlewares/autenticacion');
 
 
 // default options

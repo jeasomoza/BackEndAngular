@@ -23,7 +23,7 @@ app.get('/', (req, res, next) => {
                         errors: err
                     });
                 }
-                MedicosModels.count({}, (err, conteo) => {
+                MedicosModels.countDocuments({}, (err, conteo) => {
                     res.status(200).json({
                         ok: true,
                         data: medicos,
